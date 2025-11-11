@@ -7,4 +7,9 @@ module.exports = defineConfig([
   {
     ignores: ['dist/*'],
   },
+  {
+    settings: {
+      'import/core-modules': ['react-native-maps'],
+    },
+  },
 ]);
